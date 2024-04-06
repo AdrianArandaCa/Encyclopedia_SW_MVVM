@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C583298B-B589-485F-AE91-AD8F1D2BCBA3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F5A766C-CF5A-4E3C-97D4-2BA5B8C37A48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/Model/FilmsModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "DD5E919B-F57C-471A-A08A-F532D194F664"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE4A8E5A-5D26-407A-A1CD-392BA7A35DEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/ViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "loadMorePeople()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE4A8E5A-5D26-407A-A1CD-392BA7A35DEE - 88c9b834d6a1daf1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Encyclopedia_SW_MVVM.ViewModel.loadMorePeople() async -&gt; ()"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "AE4A8E5A-5D26-407A-A1CD-392BA7A35DEE - d9b3e4fe9a7b9bfe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in Encyclopedia_SW_MVVM.ViewModel.loadMorePeople() async -&gt; ()"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "AE4A8E5A-5D26-407A-A1CD-392BA7A35DEE - 74b24ec8d9961ef3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Encyclopedia_SW_MVVM.ViewModel.loadMorePeople() async -&gt; ()"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BD1450A-3A37-42D9-963D-6A4C745C8DDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/ViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "loadMorePeople()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1BD1450A-3A37-42D9-963D-6A4C745C8DDE - 74b24ec8d9961f6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Encyclopedia_SW_MVVM.ViewModel.loadMorePeople() async -&gt; ()"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "1BD1450A-3A37-42D9-963D-6A4C745C8DDE - 74b24ec8d9961f6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Encyclopedia_SW_MVVM.ViewModel.loadMorePeople() async -&gt; ()"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "1BD1450A-3A37-42D9-963D-6A4C745C8DDE - 207cc5432c8f2352"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in Encyclopedia_SW_MVVM.ViewModel.loadMorePeople() async -&gt; ()"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF9BC318-7753-4D1B-915C-D8AAFAB5EFE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getImage(imageName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BF9BC318-7753-4D1B-915C-D8AAFAB5EFE9 - 5995c9c6b79e3e5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "924">
+               </Location>
+               <Location
+                  uuid = "BF9BC318-7753-4D1B-915C-D8AAFAB5EFE9 - d7e6561a2d976c8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "BF9BC318-7753-4D1B-915C-D8AAFAB5EFE9 - 33366b17fa5fa64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "BF9BC318-7753-4D1B-915C-D8AAFAB5EFE9 - 500dca14dbd19465"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C12BB159-3D71-4D87-B981-333258647687"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getImage(imageName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C12BB159-3D71-4D87-B981-333258647687 - 33366b17fa5fa45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "C12BB159-3D71-4D87-B981-333258647687 - 500dca14dbd19444"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92A57443-BB89-4E4D-B453-2CF7B0B40932"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getImage(imageName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "92A57443-BB89-4E4D-B453-2CF7B0B40932 - 33366b17fa5fdaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "92A57443-BB89-4E4D-B453-2CF7B0B40932 - 500dca14dbd193ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A6E94C3-495A-4FCC-8080-D1C688C1DCE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getImage(imageName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2A6E94C3-495A-4FCC-8080-D1C688C1DCE9 - 5995c9c6b79e39d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1092">
+               </Location>
+               <Location
+                  uuid = "2A6E94C3-495A-4FCC-8080-D1C688C1DCE9 - 33366b17fa5fde8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getImage(imageName: Swift.String) async -&gt; Swift.Optional&lt;Encyclopedia_SW_MVVM.GoogleResponsesDataModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17490048-D804-42C0-8151-4DCA6EA6B0F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getImage(imageName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4699D709-9407-4975-87BB-307C775B6A95"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "getAllData(personResponsesDataModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4699D709-9407-4975-87BB-307C775B6A95 - 46decaf93a3a3b04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getAllData(personResponsesDataModel: Swift.Array&lt;Encyclopedia_SW_MVVM.PersonResponsesDataModel&gt;) async -&gt; Swift.Array&lt;Encyclopedia_SW_MVVM.PersonModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1116">
+               </Location>
+               <Location
+                  uuid = "4699D709-9407-4975-87BB-307C775B6A95 - 46decaf93a3a3b04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getAllData(personResponsesDataModel: Swift.Array&lt;Encyclopedia_SW_MVVM.PersonResponsesDataModel&gt;) async -&gt; Swift.Array&lt;Encyclopedia_SW_MVVM.PersonModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1604">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45672BE4-B7EC-4649-AE59-CAAE42BBF1BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Encyclopedia_SW_MVVM/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "getAllData(personResponsesDataModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "45672BE4-B7EC-4649-AE59-CAAE42BBF1BF - 45a9be1d50137f27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getAllData(personResponsesDataModel: Swift.Array&lt;Encyclopedia_SW_MVVM.PersonResponsesDataModel&gt;) async -&gt; Swift.Array&lt;Encyclopedia_SW_MVVM.PersonModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "45672BE4-B7EC-4649-AE59-CAAE42BBF1BF - 3792653459ef4731"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) await resume partial function for Encyclopedia_SW_MVVM.APIClient.getAllData(personResponsesDataModel: Swift.Array&lt;Encyclopedia_SW_MVVM.PersonResponsesDataModel&gt;) async -&gt; Swift.Array&lt;Encyclopedia_SW_MVVM.PersonModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "45672BE4-B7EC-4649-AE59-CAAE42BBF1BF - 46decaf93a3a3b25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getAllData(personResponsesDataModel: Swift.Array&lt;Encyclopedia_SW_MVVM.PersonResponsesDataModel&gt;) async -&gt; Swift.Array&lt;Encyclopedia_SW_MVVM.PersonModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "45672BE4-B7EC-4649-AE59-CAAE42BBF1BF - 46decaf93a3a3b25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Encyclopedia_SW_MVVM.APIClient.getAllData(personResponsesDataModel: Swift.Array&lt;Encyclopedia_SW_MVVM.PersonResponsesDataModel&gt;) async -&gt; Swift.Array&lt;Encyclopedia_SW_MVVM.PersonModel&gt;"
+                  moduleName = "Encyclopedia_SW_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/Dev/Encyclopedia_SW_MVVM/Encyclopedia_SW_MVVM/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "860">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

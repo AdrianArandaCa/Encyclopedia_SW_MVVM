@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D77968422BC1AD4B00031181 /* PeopleModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77968412BC1AD4B00031181 /* PeopleModelMapper.swift */; };
+		D77968452BC1AE2500031181 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77968442BC1AE2500031181 /* PersonModel.swift */; };
+		D78D724D2BA8BD76007F24F2 /* Enunciado.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78D724C2BA8BD76007F24F2 /* Enunciado.swift */; };
+		D7DE04032BC1C07600BAFA9F /* GoogleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE04022BC1C07600BAFA9F /* GoogleModel.swift */; };
 		D7ED629E2B133BAD0007F9CA /* Encyclopedia_SW_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED629D2B133BAD0007F9CA /* Encyclopedia_SW_MVVMApp.swift */; };
 		D7ED62A02B133BAD0007F9CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED629F2B133BAD0007F9CA /* ContentView.swift */; };
 		D7ED62A22B133BAE0007F9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7ED62A12B133BAE0007F9CA /* Assets.xcassets */; };
@@ -14,6 +18,14 @@
 		D7ED62AF2B133BAE0007F9CA /* Encyclopedia_SW_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62AE2B133BAE0007F9CA /* Encyclopedia_SW_MVVMTests.swift */; };
 		D7ED62B92B133BAE0007F9CA /* Encyclopedia_SW_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62B82B133BAE0007F9CA /* Encyclopedia_SW_MVVMUITests.swift */; };
 		D7ED62BB2B133BAE0007F9CA /* Encyclopedia_SW_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62BA2B133BAE0007F9CA /* Encyclopedia_SW_MVVMUITestsLaunchTests.swift */; };
+		D7ED62C82B133C9C0007F9CA /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62C72B133C9C0007F9CA /* APIClient.swift */; };
+		D7ED62CB2B134B060007F9CA /* FilmsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62CA2B134B060007F9CA /* FilmsModel.swift */; };
+		D7ED62CD2B134B0F0007F9CA /* PeopleResponsesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62CC2B134B0F0007F9CA /* PeopleResponsesDataModel.swift */; };
+		D7ED62CF2B134B150007F9CA /* PlanetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62CE2B134B140007F9CA /* PlanetsModel.swift */; };
+		D7ED62D12B134B1B0007F9CA /* SpeciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62D02B134B1B0007F9CA /* SpeciesModel.swift */; };
+		D7ED62D32B134B250007F9CA /* StarshipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62D22B134B250007F9CA /* StarshipsModel.swift */; };
+		D7ED62D52B134B2F0007F9CA /* VehiclesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62D42B134B2F0007F9CA /* VehiclesModel.swift */; };
+		D7ED62DA2B1352490007F9CA /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED62D92B1352490007F9CA /* PeopleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D77968412BC1AD4B00031181 /* PeopleModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleModelMapper.swift; sourceTree = "<group>"; };
+		D77968442BC1AE2500031181 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		D78D724C2BA8BD76007F24F2 /* Enunciado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enunciado.swift; sourceTree = "<group>"; };
+		D7DE04022BC1C07600BAFA9F /* GoogleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleModel.swift; sourceTree = "<group>"; };
 		D7ED629A2B133BAD0007F9CA /* Encyclopedia_SW_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encyclopedia_SW_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ED629D2B133BAD0007F9CA /* Encyclopedia_SW_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encyclopedia_SW_MVVMApp.swift; sourceTree = "<group>"; };
 		D7ED629F2B133BAD0007F9CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +60,14 @@
 		D7ED62B42B133BAE0007F9CA /* Encyclopedia_SW_MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Encyclopedia_SW_MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ED62B82B133BAE0007F9CA /* Encyclopedia_SW_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encyclopedia_SW_MVVMUITests.swift; sourceTree = "<group>"; };
 		D7ED62BA2B133BAE0007F9CA /* Encyclopedia_SW_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encyclopedia_SW_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7ED62C72B133C9C0007F9CA /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D7ED62CA2B134B060007F9CA /* FilmsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsModel.swift; sourceTree = "<group>"; };
+		D7ED62CC2B134B0F0007F9CA /* PeopleResponsesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleResponsesDataModel.swift; sourceTree = "<group>"; };
+		D7ED62CE2B134B140007F9CA /* PlanetsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsModel.swift; sourceTree = "<group>"; };
+		D7ED62D02B134B1B0007F9CA /* SpeciesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesModel.swift; sourceTree = "<group>"; };
+		D7ED62D22B134B250007F9CA /* StarshipsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsModel.swift; sourceTree = "<group>"; };
+		D7ED62D42B134B2F0007F9CA /* VehiclesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesModel.swift; sourceTree = "<group>"; };
+		D7ED62D92B1352490007F9CA /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D77968432BC1ADE300031181 /* OthersModels */ = {
+			isa = PBXGroup;
+			children = (
+				D7DE04022BC1C07600BAFA9F /* GoogleModel.swift */,
+				D7ED62CA2B134B060007F9CA /* FilmsModel.swift */,
+				D7ED62CE2B134B140007F9CA /* PlanetsModel.swift */,
+				D7ED62D02B134B1B0007F9CA /* SpeciesModel.swift */,
+				D7ED62D22B134B250007F9CA /* StarshipsModel.swift */,
+				D7ED62D42B134B2F0007F9CA /* VehiclesModel.swift */,
+			);
+			path = OthersModels;
+			sourceTree = "<group>";
+		};
+		D7DE04012BC1BD1A00BAFA9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED62CC2B134B0F0007F9CA /* PeopleResponsesDataModel.swift */,
+				D77968412BC1AD4B00031181 /* PeopleModelMapper.swift */,
+				D77968442BC1AE2500031181 /* PersonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D7ED62912B133BAD0007F9CA = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +141,14 @@
 		D7ED629C2B133BAD0007F9CA /* Encyclopedia_SW_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				D78D724C2BA8BD76007F24F2 /* Enunciado.swift */,
+				D7ED62C92B134AF30007F9CA /* People */,
+				D77968432BC1ADE300031181 /* OthersModels */,
 				D7ED629D2B133BAD0007F9CA /* Encyclopedia_SW_MVVMApp.swift */,
 				D7ED629F2B133BAD0007F9CA /* ContentView.swift */,
 				D7ED62A12B133BAE0007F9CA /* Assets.xcassets */,
 				D7ED62A32B133BAE0007F9CA /* Preview Content */,
+				D7ED62C72B133C9C0007F9CA /* APIClient.swift */,
 			);
 			path = Encyclopedia_SW_MVVM;
 			sourceTree = "<group>";
@@ -125,6 +176,23 @@
 				D7ED62BA2B133BAE0007F9CA /* Encyclopedia_SW_MVVMUITestsLaunchTests.swift */,
 			);
 			path = Encyclopedia_SW_MVVMUITests;
+			sourceTree = "<group>";
+		};
+		D7ED62C92B134AF30007F9CA /* People */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED62D82B1352410007F9CA /* ViewModel */,
+				D7DE04012BC1BD1A00BAFA9F /* Model */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		D7ED62D82B1352410007F9CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED62D92B1352490007F9CA /* PeopleViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +325,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77968452BC1AE2500031181 /* PersonModel.swift in Sources */,
+				D7ED62DA2B1352490007F9CA /* PeopleViewModel.swift in Sources */,
+				D7ED62CD2B134B0F0007F9CA /* PeopleResponsesDataModel.swift in Sources */,
+				D7ED62D32B134B250007F9CA /* StarshipsModel.swift in Sources */,
+				D78D724D2BA8BD76007F24F2 /* Enunciado.swift in Sources */,
+				D7ED62D52B134B2F0007F9CA /* VehiclesModel.swift in Sources */,
+				D7DE04032BC1C07600BAFA9F /* GoogleModel.swift in Sources */,
+				D7ED62CF2B134B150007F9CA /* PlanetsModel.swift in Sources */,
+				D7ED62D12B134B1B0007F9CA /* SpeciesModel.swift in Sources */,
 				D7ED62A02B133BAD0007F9CA /* ContentView.swift in Sources */,
 				D7ED629E2B133BAD0007F9CA /* Encyclopedia_SW_MVVMApp.swift in Sources */,
+				D77968422BC1AD4B00031181 /* PeopleModelMapper.swift in Sources */,
+				D7ED62C82B133C9C0007F9CA /* APIClient.swift in Sources */,
+				D7ED62CB2B134B060007F9CA /* FilmsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
