@@ -55,28 +55,24 @@ struct CharacterDetail: View {
         ZStack {
             VStack {
                 if let url = characterInfo?.image?.link {
-                    Circle()
-                        .overlay(
-                            AsyncImage(url: URL(string: url)) { image in
-                                image
-                                    .resizable()
-                                    .scaledToFit()
-                                    .cornerRadius(20)
-                            } placeholder: {
-                                ProgressView()
-                            }
-                        )
-                } else {
-                    Circle()
-                        .fill(.black)
-                        .frame(width: 200, height: 200)
-                        .overlay(
-                            Image("siluette")
+                    AsyncImage(url: URL(string: url)) { image in
+                        image
                             .resizable()
                             .scaledToFit()
-                            .cornerRadius(100)
-                            .frame(width: 150, height: 150)
-                            )
+                            .cornerRadius(20)
+                            .clipShape(Circle())
+                    } placeholder: {
+                        ProgressView()
+                    }
+                    .frame(width: 150, height: 150)
+                } else {
+                    Image("siluette")
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(100)
+                        .clipShape(Circle())
+                        .frame(width: 150, height: 150)
+                    
                 }
                 Text(characterInfo?.name ?? "")
                 Text(characterInfo?.height ?? "")

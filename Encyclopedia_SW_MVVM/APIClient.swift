@@ -35,6 +35,8 @@ final class APIClient {
         if let imageURL = URL(string: url) {
             if let (data,_) = try? await URLSession.shared.data(from: imageURL) {
                 let googleResponsesDataModel = try? JSONDecoder().decode(GoogleResponsesDataModel.self, from: data)
+                print("GOOGLERESPONSESDATAMODEL: \(googleResponsesDataModel)")
+                print("DATA: \(data)")
                 return googleResponsesDataModel
             }
         }
@@ -47,7 +49,7 @@ final class APIClient {
         if let peopleURL = URL(string: String(format: "%@%@", baseUrl,urlPeople)) {
             let (data,_) = try! await URLSession.shared.data(from: peopleURL)
             let peopleResponsesDataModel = try? JSONDecoder().decode(PeopleResponsesDataModel.self, from: data)
-            print("People response: \(peopleResponsesDataModel!)")
+//            print("People response: \(peopleResponsesDataModel!)")
             return peopleResponsesDataModel
         }
         return nil
@@ -65,7 +67,7 @@ final class APIClient {
             if let peopleURL = URL(string: url) {
                 let (data, _) = try! await URLSession.shared.data(from: peopleURL)
                 let peopleModel = try? JSONDecoder().decode(PeopleResponsesDataModel.self, from: data)
-                print("People response: \(peopleModel!)")
+//                print("People response: \(peopleModel!)")
                 return peopleModel
             }
             return nil
@@ -102,7 +104,7 @@ final class APIClient {
         if let filmURL = URL(string: String(format: "%@%@", baseUrl,urlFilms)) {
             let (data,_) = try! await URLSession.shared.data(from: filmURL)
             let filmsModel = try? JSONDecoder().decode(FilmsModel.self, from: data)
-            print("Films response: \(filmsModel!)")
+//            print("Films response: \(filmsModel!)")
             return filmsModel
         }
         return nil
@@ -120,7 +122,7 @@ final class APIClient {
                                                director: filmModel.director,
                                                producer: filmModel.producer,
                                                releaseDate: filmModel.releaseDate))
-                print("\(filmModel)")
+//                print("\(filmModel)")
             }
         }
         return filmsInfo
@@ -142,7 +144,7 @@ final class APIClient {
                                        terrain: homeworldModel.terrain,
                                        surfaceWater: homeworldModel.surfaceWater,
                                        population: homeworldModel.population)
-            print("\(homeworldModel)")
+//            print("\(homeworldModel)")
             return homeworldInfo
         }
         return homeworldInfo
@@ -155,7 +157,7 @@ final class APIClient {
         if let planetsURL = URL(string: String(format: "%@%@", baseUrl,urlPlanets)) {
             let (data,_) = try! await URLSession.shared.data(from: planetsURL)
             let planetsModel = try? JSONDecoder().decode(PlanetsModel.self, from: data)
-            print("Planets response: \(planetsModel!)")
+//            print("Planets response: \(planetsModel!)")
             return planetsModel
         }
         return nil
@@ -168,7 +170,7 @@ final class APIClient {
         if let speciesURL = URL(string: String(format: "%@%@", baseUrl,urlSpecies)) {
             let (data,_) = try! await URLSession.shared.data(from: speciesURL)
             let speciesModel = try? JSONDecoder().decode(SpeciesModel.self, from: data)
-            print("Species response: \(speciesModel!)")
+//            print("Species response: \(speciesModel!)")
             return speciesModel
         }
         return nil
@@ -181,7 +183,7 @@ final class APIClient {
         if let starshipsURL = URL(string: String(format: "%@%@", baseUrl,urlStarships)) {
             let (data,_) = try! await URLSession.shared.data(from: starshipsURL)
             let starshipsModel = try? JSONDecoder().decode(StarshipsModel.self, from: data)
-            print("Starships response: \(starshipsModel!)")
+//            print("Starships response: \(starshipsModel!)")
             return starshipsModel
         }
         return nil
@@ -194,7 +196,7 @@ final class APIClient {
         if let vehiclesURL = URL(string: String(format: "%@%@", baseUrl,urlVehicles)) {
             let (data,_) = try! await URLSession.shared.data(from: vehiclesURL)
             let vehiclesModel = try? JSONDecoder().decode(VehiclesModel.self, from: data)
-            print("Vehicles response: \(vehiclesModel!)")
+//            print("Vehicles response: \(vehiclesModel!)")
             return vehiclesModel
         }
         return nil

@@ -54,11 +54,11 @@ struct Context: Decodable {
 
 // MARK: - Item
 struct Item: Decodable {
-    let kind: Kind
+    let kind: String
     let title, htmlTitle: String
     let link: String
     let displayLink, snippet, htmlSnippet: String
-    let mime, fileFormat: FileFormat
+    let mime, fileFormat: String
     let image: ImageInfo
     
     enum CodingKeys: CodingKey {
@@ -76,31 +76,31 @@ struct Item: Decodable {
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.kind = try container.decode(Kind.self, forKey: .kind)
+        self.kind = try container.decode(String.self, forKey: .kind)
         self.title = try container.decode(String.self, forKey: .title)
         self.htmlTitle = try container.decode(String.self, forKey: .htmlTitle)
         self.link = try container.decode(String.self, forKey: .link)
         self.displayLink = try container.decode(String.self, forKey: .displayLink)
         self.snippet = try container.decode(String.self, forKey: .snippet)
         self.htmlSnippet = try container.decode(String.self, forKey: .htmlSnippet)
-        self.mime = try container.decode(FileFormat.self, forKey: .mime)
-        self.fileFormat = try container.decode(FileFormat.self, forKey: .fileFormat)
+        self.mime = try container.decode(String.self, forKey: .mime)
+        self.fileFormat = try container.decode(String.self, forKey: .fileFormat)
         self.image = try container.decode(ImageInfo.self, forKey: .image)
     }
 }
 
-enum FileFormat: Decodable {
-    case image
-    case imageJPEG
-    case imagePNG
-}
+//enum FileFormat: String, Decodable {
+//    case image
+//    case imageJPEG
+//    case imagePNG
+//}
 
 // MARK: - Image
 struct ImageInfo: Decodable {
     let contextLink: String
-    let height, width, byteSize: Int
+    let height, width, byteSize: NSNumber
     let thumbnailLink: String
-    let thumbnailHeight, thumbnailWidth: Int
+    let thumbnailHeight, thumbnailWidth: NSNumber
     
     enum CodingKeys: CodingKey {
         case contextLink
@@ -115,18 +115,18 @@ struct ImageInfo: Decodable {
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.contextLink = try container.decode(String.self, forKey: .contextLink)
-        self.height = try container.decode(Int.self, forKey: .height)
-        self.width = try container.decode(Int.self, forKey: .width)
-        self.byteSize = try container.decode(Int.self, forKey: .byteSize)
+        self.height = try container.decode(NSNumber.self, forKey: .height)
+        self.width = try container.decode(NSNumber.self, forKey: .width)
+        self.byteSize = try container.decode(NSNumber.self, forKey: .byteSize)
         self.thumbnailLink = try container.decode(String.self, forKey: .thumbnailLink)
         self.thumbnailHeight = try container.decode(Int.self, forKey: .thumbnailHeight)
         self.thumbnailWidth = try container.decode(Int.self, forKey: .thumbnailWidth)
     }
 }
 
-enum Kind: Decodable {
-    case customsearchResult
-}
+//enum Kind: String, Decodable {
+//    case customsearchResult
+//}
 
 // MARK: - Queries
 struct Queries: Decodable {
@@ -147,7 +147,7 @@ struct Queries: Decodable {
 // MARK: - NextPage
 struct NextPage: Decodable {
     let title, totalResults, searchTerms: String
-    let count, startIndex: Int
+    let count, startIndex: NSNumber
     let inputEncoding, outputEncoding, safe, cx: String
     let searchType: String
     
@@ -169,8 +169,8 @@ struct NextPage: Decodable {
         self.title = try container.decode(String.self, forKey: .title)
         self.totalResults = try container.decode(String.self, forKey: .totalResults)
         self.searchTerms = try container.decode(String.self, forKey: .searchTerms)
-        self.count = try container.decode(Int.self, forKey: .count)
-        self.startIndex = try container.decode(Int.self, forKey: .startIndex)
+        self.count = try container.decode(NSNumber.self, forKey: .count)
+        self.startIndex = try container.decode(NSNumber.self, forKey: .startIndex)
         self.inputEncoding = try container.decode(String.self, forKey: .inputEncoding)
         self.outputEncoding = try container.decode(String.self, forKey: .outputEncoding)
         self.safe = try container.decode(String.self, forKey: .safe)
