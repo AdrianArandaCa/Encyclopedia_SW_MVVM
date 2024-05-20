@@ -7,41 +7,30 @@
 
 import Foundation
 
-//enum BackendError: String, Error {
-//    case invalidEmail = "Comprueba el email"
-//    case invalidPassword = "Comprueba el password"
-//}
-
-//MARK: APIKEY google AIzaSyB18sZwdSmtsA7gY3TO1rkC082zUBpMIVA
-//MARK: Llamada google -> GET
-// https://www.googleapis.com/customsearch/v1?key=AIzaSyB18sZwdSmtsA7gY3TO1rkC082zUBpMIVA&cx=633e1cf8fb8da44bc&q=han%20solo&searchType=image
-// https://www.googleapis.com/customsearch/v1?key=AIzaSyB18sZwdSmtsA7gY3TO1rkC082zUBpMIVA&cx=633e1cf8fb8da44bc&q=LukeSkywalker&searchType=image"
-
 final class APIClient {
     
     private let baseUrl = "https://swapi.dev/api/"
     
     private let baseGoogleUrl = "https://www.googleapis.com/customsearch/v1"
     private let googleApi = "AIzaSyB18sZwdSmtsA7gY3TO1rkC082zUBpMIVA"
-    private let cx = "633e1cf8fb8da44bc"
     private let peopleModelMapper: PeopleModelMapper = PeopleModelMapper()
     
     //MARK: Repo google api
     
-    func getImage(imageName: String) async -> GoogleResponsesDataModel? {
-        let imageNameWithoutSpaces = imageName.replacingOccurrences(of: " ", with: "")
-        let url = String(format:"%@?key=%@&cx=%@&q=%@&searchType=image",
-                         baseGoogleUrl, googleApi, cx, imageNameWithoutSpaces)
-        if let imageURL = URL(string: url) {
-            if let (data,_) = try? await URLSession.shared.data(from: imageURL) {
-                let googleResponsesDataModel = try? JSONDecoder().decode(GoogleResponsesDataModel.self, from: data)
-                print("GOOGLERESPONSESDATAMODEL: \(googleResponsesDataModel)")
-                print("DATA: \(data)")
-                return googleResponsesDataModel
-            }
-        }
-        return nil
-    }
+//    func getImage(imageName: String) async -> GoogleResponsesDataModel? {
+//        let imageNameWithoutSpaces = imageName.replacingOccurrences(of: " ", with: "")
+//        let url = String(format:"%@?key=%@&cx=%@&q=%@&searchType=image",
+//                         baseGoogleUrl, googleApi, cx, imageNameWithoutSpaces)
+//        if let imageURL = URL(string: url) {
+//            if let (data,_) = try? await URLSession.shared.data(from: imageURL) {
+//                let googleResponsesDataModel = try? JSONDecoder().decode(GoogleResponsesDataModel.self, from: data)
+//                print("GOOGLERESPONSESDATAMODEL: \(googleResponsesDataModel)")
+//                print("DATA: \(data)")
+//                return googleResponsesDataModel
+//            }
+//        }
+//        return nil
+//    }
     //MARK: Repo people
     
     func getPeople() async -> PeopleResponsesDataModel? {
