@@ -9,7 +9,7 @@ import Foundation
 
 struct PeopleModelMapper {
     func mapDataModelToModel(dataModel: PersonResponsesDataModel, homeworld: PlanetInfo, films: [FilmInfo], imageURL: GoogleResponsesDataModel? = nil) -> PersonModel? {
-        return PersonModel(name: dataModel.name,
+        return PersonModel(name: dataModel.name ?? "",
                            height: dataModel.height,
                            mass: dataModel.mass,
                            gender: dataModel.gender,

@@ -95,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A0EAFA82BFB516B006FF8DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7ED629F2B133BAD0007F9CA /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D77968432BC1ADE300031181 /* OthersModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +153,7 @@
 				D7ED62C92B134AF30007F9CA /* People */,
 				D77968432BC1ADE300031181 /* OthersModels */,
 				D7ED629D2B133BAD0007F9CA /* Encyclopedia_SW_MVVMApp.swift */,
-				D7ED629F2B133BAD0007F9CA /* ContentView.swift */,
+				3A0EAFA82BFB516B006FF8DE /* View */,
 				D7ED62A12B133BAE0007F9CA /* Assets.xcassets */,
 				D7ED62A32B133BAE0007F9CA /* Preview Content */,
 				D7ED62C72B133C9C0007F9CA /* APIClient.swift */,

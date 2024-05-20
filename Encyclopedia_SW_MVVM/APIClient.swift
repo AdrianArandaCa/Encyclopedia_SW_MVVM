@@ -81,15 +81,15 @@ final class APIClient {
         for person in personResponsesDataModel {
             if let homeworldData = await gethomeworldData(homeworldURL: person.homeworld ?? "") {
                 if let films = await getFilmsData(films: person.films) {
-                    if let imageURL = await getImage(imageName: person.name ?? "") {
+                    /*if let imageURL = await getImage(imageName: person.name ?? "") {
                         if let peopleModelMapper = peopleModelMapper.mapDataModelToModel(dataModel: person, homeworld: homeworldData, films: films, imageURL: imageURL) {
                             peopleModel.append(peopleModelMapper)
                         }
-                    } else {
+                    } else {*/
                         if let peopleModelMapper = peopleModelMapper.mapDataModelToModel(dataModel: person, homeworld: homeworldData, films: films) {
                             peopleModel.append(peopleModelMapper)
                         }
-                    }
+//                    }
                 }
             }
         }

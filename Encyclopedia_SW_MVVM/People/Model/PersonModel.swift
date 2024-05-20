@@ -9,7 +9,7 @@ import Foundation
 
 struct PersonModel {
     
-    var name: String?
+    var name: String = ""
     var height: String?
     var mass: String?
     var gender: String?

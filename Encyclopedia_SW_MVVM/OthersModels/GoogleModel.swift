@@ -98,9 +98,9 @@ struct Item: Decodable {
 // MARK: - Image
 struct ImageInfo: Decodable {
     let contextLink: String
-    let height, width, byteSize: NSNumber
+    let height, width, byteSize: Double
     let thumbnailLink: String
-    let thumbnailHeight, thumbnailWidth: NSNumber
+    let thumbnailHeight, thumbnailWidth: Double
     
     enum CodingKeys: CodingKey {
         case contextLink
@@ -115,12 +115,12 @@ struct ImageInfo: Decodable {
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.contextLink = try container.decode(String.self, forKey: .contextLink)
-        self.height = try container.decode(NSNumber.self, forKey: .height)
-        self.width = try container.decode(NSNumber.self, forKey: .width)
-        self.byteSize = try container.decode(NSNumber.self, forKey: .byteSize)
+        self.height = try container.decode(Double.self, forKey: .height)
+        self.width = try container.decode(Double.self, forKey: .width)
+        self.byteSize = try container.decode(Double.self, forKey: .byteSize)
         self.thumbnailLink = try container.decode(String.self, forKey: .thumbnailLink)
-        self.thumbnailHeight = try container.decode(Int.self, forKey: .thumbnailHeight)
-        self.thumbnailWidth = try container.decode(Int.self, forKey: .thumbnailWidth)
+        self.thumbnailHeight = try container.decode(Double.self, forKey: .thumbnailHeight)
+        self.thumbnailWidth = try container.decode(Double.self, forKey: .thumbnailWidth)
     }
 }
 
@@ -147,7 +147,7 @@ struct Queries: Decodable {
 // MARK: - NextPage
 struct NextPage: Decodable {
     let title, totalResults, searchTerms: String
-    let count, startIndex: NSNumber
+    let count, startIndex: Double
     let inputEncoding, outputEncoding, safe, cx: String
     let searchType: String
     
@@ -169,8 +169,8 @@ struct NextPage: Decodable {
         self.title = try container.decode(String.self, forKey: .title)
         self.totalResults = try container.decode(String.self, forKey: .totalResults)
         self.searchTerms = try container.decode(String.self, forKey: .searchTerms)
-        self.count = try container.decode(NSNumber.self, forKey: .count)
-        self.startIndex = try container.decode(NSNumber.self, forKey: .startIndex)
+        self.count = try container.decode(Double.self, forKey: .count)
+        self.startIndex = try container.decode(Double.self, forKey: .startIndex)
         self.inputEncoding = try container.decode(String.self, forKey: .inputEncoding)
         self.outputEncoding = try container.decode(String.self, forKey: .outputEncoding)
         self.safe = try container.decode(String.self, forKey: .safe)
